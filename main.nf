@@ -28,13 +28,13 @@ params.abricate_outdir = './pipeline_output/abricate_out'
 params.growth_outdir = './pipeline_output/growth_out'
 
 // ***
-include {DECONT} from './decont.nf' params(outdir: "${params.decont_outdir}")
-include {Metaphlan4} from './metaphlan4.nf' params(outdir: "$params.metaphlan4_outdir")
-include {Megahit} from './megahit.nf' params(outdir: "$params.megahit_outdir")
-include {Prodigal} from './prodigal' params(outdir: "$params.prodigal_outdir")
-include {Cluster; Translate; Emapper0; Emapper1} from './kegg.nf' params(outdir: "$params.kegg_outdir")
-include {Abricate} from './abricate.nf' params(outdir: "$params.abricate_outdir")
-include {Growth} from './growth.nf' params(outdir: "$params.growth_outdir" )
+include {DECONT} from './modules/decont.nf' params(outdir: "${params.decont_outdir}")
+include {Metaphlan4} from './modules/metaphlan4.nf' params(outdir: "$params.metaphlan4_outdir")
+include {Megahit} from './modules/megahit.nf' params(outdir: "$params.megahit_outdir")
+include {Prodigal} from './modules/prodigal' params(outdir: "$params.prodigal_outdir")
+include {Cluster; Translate; Emapper0; Emapper1} from './modules/kegg.nf' params(outdir: "$params.kegg_outdir")
+include {Abricate} from './modules/abricate.nf' params(outdir: "$params.abricate_outdir")
+include {Growth} from './modules/growth.nf' params(outdir: "$params.growth_outdir" )
 
 // help message
 def helpMessage() {
@@ -57,7 +57,7 @@ ch_reads = Channel.fromFilePairs(params.read_path + '/**{1,2}.f*q*', flat: true)
 workflow{
 	DECONT(ch_reads)
 	DECONT.out[0].view()
-	// Metaphlan4(ch_metaphlan4_idx, DECONT.out[0])
+	Metaphlan4(ch_metaphlan4_idx, DECONT.out[0])
 	Megahit(DECONT.out[0])
 	Prodigal(Megahit.out[0])
 	Cluster(Prodigal.out[0])
