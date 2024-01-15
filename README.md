@@ -1,4 +1,4 @@
-Usage:
+**Usage:**
 
 ```shell
 (next_flow) hxl@hxl:~/mynextflow$ run main.nf -with-conda --read_path ./data/reads/
@@ -24,7 +24,7 @@ Succeeded   : 18
 
 ```
 
-Dirctory:
+**Directory structrue:**
 
 ```shell
 (next_flow) hxl@hxl:~/mynextflow$ tree .
