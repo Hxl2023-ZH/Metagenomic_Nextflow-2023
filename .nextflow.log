@@ -1,0 +1,138 @@
+Jan-14 15:32:18.985 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -with-conda --read_path ./data/reads/
+Jan-14 15:32:19.071 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.10.0
+Jan-14 15:32:19.085 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/hxl/.nextflow/plugins; core-plugins: nf-amazon@2.1.4,nf-azure@1.3.2,nf-cloudcache@0.3.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.3,nf-tower@1.6.3,nf-wave@1.0.0
+Jan-14 15:32:19.092 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jan-14 15:32:19.092 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jan-14 15:32:19.094 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Jan-14 15:32:19.101 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jan-14 15:32:19.113 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/hxl/work_space12/mynextflow/nextflow.config
+Jan-14 15:32:19.114 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/hxl/work_space12/mynextflow/nextflow.config
+Jan-14 15:32:19.130 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jan-14 15:32:19.436 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+Jan-14 15:32:19.448 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [marvelous_varahamihira] DSL2 - revision: 2deb89e8a9
+Jan-14 15:32:19.448 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jan-14 15:32:19.448 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jan-14 15:32:19.455 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/hxl/.nextflow/secrets/store.json
+Jan-14 15:32:19.458 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@3a2d3909] - activable => nextflow.secret.LocalSecretsProvider@3a2d3909
+Jan-14 15:32:19.501 [main] DEBUG nextflow.Session - Session UUID: a7a90921-fddc-4144-9d0b-58fd5465614a
+Jan-14 15:32:19.501 [main] DEBUG nextflow.Session - Run name: marvelous_varahamihira
+Jan-14 15:32:19.501 [main] DEBUG nextflow.Session - Executor pool size: 16
+Jan-14 15:32:19.507 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jan-14 15:32:19.510 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=48; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jan-14 15:32:19.527 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.10.0 build 5889
+  Created: 15-10-2023 15:07 UTC (23:07 CDT)
+  System: Linux 6.2.0-39-generic
+  Runtime: Groovy 3.0.19 on OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21
+  Encoding: UTF-8 (UTF-8)
+  Process: 118777@hxl [127.0.1.1]
+  CPUs: 16 - Mem: 62.7 GB (47.8 GB) - Swap: 2 GB (2 GB)
+Jan-14 15:32:19.549 [main] DEBUG nextflow.Session - Work-dir: /home/hxl/work_space12/mynextflow/work [ext2/ext3]
+Jan-14 15:32:19.549 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/hxl/work_space12/mynextflow/bin
+Jan-14 15:32:19.556 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jan-14 15:32:19.563 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jan-14 15:32:19.582 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jan-14 15:32:19.593 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 17; maxThreads: 1000
+Jan-14 15:32:19.657 [main] DEBUG nextflow.Session - Session start
+Jan-14 15:32:19.914 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jan-14 15:32:20.400 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-14 15:32:20.400 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-14 15:32:20.404 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jan-14 15:32:20.408 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=16; memory=62.7 GB; capacity=16; pollInterval=100ms; dumpInterval=5m
+Jan-14 15:32:20.410 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Jan-14 15:32:20.456 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-14 15:32:20.456 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-14 15:32:20.461 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-14 15:32:20.461 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-14 15:32:20.465 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-14 15:32:20.465 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-14 15:32:20.469 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-14 15:32:20.469 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-14 15:32:20.473 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-14 15:32:20.473 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-14 15:32:20.477 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-14 15:32:20.477 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-14 15:32:20.481 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-14 15:32:20.481 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-14 15:32:20.484 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: Prodigal, Megahit, DECONT, Emapper1, Emapper0, Cluster, Abricate, Translate, Metaphlan4
+Jan-14 15:32:20.484 [main] DEBUG nextflow.Session - Igniting dataflow network (9)
+Jan-14 15:32:20.487 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: ./data/reads/; pattern: **{1,2}.f*q*; options: [:]
+Jan-14 15:32:20.488 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DECONT
+Jan-14 15:32:20.488 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Megahit
+Jan-14 15:32:20.488 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Prodigal
+Jan-14 15:32:20.489 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Cluster
+Jan-14 15:32:20.490 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Translate
+Jan-14 15:32:20.491 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Emapper0
+Jan-14 15:32:20.491 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Emapper1
+Jan-14 15:32:20.492 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Abricate
+Jan-14 15:32:20.492 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_0616843983eda580: /home/hxl/work_space12/mynextflow/./abricate.nf
+  Script_098413517b9b7bea: /home/hxl/work_space12/mynextflow/./decont.nf
+  Script_1656ef66c4f38239: /home/hxl/work_space12/mynextflow/main.nf
+  Script_43e126f029c9d5f9: /home/hxl/work_space12/mynextflow/./kegg.nf
+  Script_b59447193a2fbd6b: /home/hxl/work_space12/mynextflow/./megahit.nf
+  Script_f1f57534eeb849a2: /home/hxl/work_space12/mynextflow/./prodigal.nf
+  Script_a833782bfdecc356: /home/hxl/work_space12/mynextflow/./metaphlan4.nf
+Jan-14 15:32:20.492 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jan-14 15:32:20.492 [main] DEBUG nextflow.Session - Session await
+Jan-14 15:32:20.573 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-14 15:32:20.574 [Task submitter] INFO  nextflow.Session - [aa/e15a95] Submitted process > DECONT (C1)
+Jan-14 15:32:20.577 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-14 15:32:20.577 [Task submitter] INFO  nextflow.Session - [7d/92f56d] Submitted process > DECONT (C2)
+Jan-14 15:32:21.247 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: DECONT (C2); status: COMPLETED; exit: 0; error: -; workDir: /home/hxl/work_space12/mynextflow/work/7d/92f56d443c1a6c37de1d6be4f2224a]
+Jan-14 15:32:21.263 [Actor Thread 17] DEBUG nextflow.conda.CondaCache - conda found local env for environment=/home/hxl/miniconda3/envs/megahit/; path=/home/hxl/miniconda3/envs/megahit
+Jan-14 15:32:21.265 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=48; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jan-14 15:32:21.267 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-14 15:32:21.267 [Task submitter] INFO  nextflow.Session - [1a/19d631] Submitted process > Megahit (C2)
+Jan-14 15:32:21.345 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: DECONT (C1); status: COMPLETED; exit: 0; error: -; workDir: /home/hxl/work_space12/mynextflow/work/aa/e15a9592ecf6666201f4d473cd2aa4]
+Jan-14 15:32:21.352 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-14 15:32:21.353 [Task submitter] INFO  nextflow.Session - [be/a40dd7] Submitted process > Megahit (C1)
+Jan-14 15:32:27.706 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: Megahit (C1); status: COMPLETED; exit: 0; error: -; workDir: /home/hxl/work_space12/mynextflow/work/be/a40dd77bcb329c6169d3886604027a]
+Jan-14 15:32:27.710 [Actor Thread 14] DEBUG nextflow.conda.CondaCache - conda found local env for environment=/home/hxl/miniconda3/envs/prodigal/; path=/home/hxl/miniconda3/envs/prodigal
+Jan-14 15:32:27.714 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-14 15:32:27.714 [Task submitter] INFO  nextflow.Session - [22/08273a] Submitted process > Prodigal (${prefix})
+Jan-14 15:32:27.915 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: Megahit (C2); status: COMPLETED; exit: 0; error: -; workDir: /home/hxl/work_space12/mynextflow/work/1a/19d6315325f4666a8187356f160b65]
+Jan-14 15:32:27.920 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-14 15:32:27.921 [Task submitter] INFO  nextflow.Session - [ef/82ee36] Submitted process > Prodigal (${prefix})
+Jan-14 15:32:28.249 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: Prodigal (${prefix}); status: COMPLETED; exit: 0; error: -; workDir: /home/hxl/work_space12/mynextflow/work/22/08273a57dcd2424175f10146b0bd65]
+Jan-14 15:32:28.254 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-14 15:32:28.254 [Task submitter] INFO  nextflow.Session - [c1/bf76c5] Submitted process > Cluster (${prefix})
+Jan-14 15:32:28.412 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: Cluster (${prefix}); status: COMPLETED; exit: 0; error: -; workDir: /home/hxl/work_space12/mynextflow/work/c1/bf76c5c00fdce31ec5d02bf24e9df1]
+Jan-14 15:32:28.416 [Actor Thread 16] DEBUG nextflow.conda.CondaCache - conda found local env for environment=/home/hxl/miniconda3/envs/abricate/; path=/home/hxl/miniconda3/envs/abricate
+Jan-14 15:32:28.418 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-14 15:32:28.418 [Task submitter] INFO  nextflow.Session - [3b/7bd398] Submitted process > Translate (${prefix})
+Jan-14 15:32:28.437 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: Translate (${prefix}); status: COMPLETED; exit: 0; error: -; workDir: /home/hxl/work_space12/mynextflow/work/3b/7bd398cac7576d0fcf3b5aef7d467f]
+Jan-14 15:32:28.440 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-14 15:32:28.440 [Task submitter] INFO  nextflow.Session - [b5/ab60c5] Submitted process > Abricate (${prefix})
+Jan-14 15:32:28.440 [Actor Thread 13] DEBUG nextflow.conda.CondaCache - conda found local env for environment=/home/hxl/miniconda3/envs/eggnog-mapper/; path=/home/hxl/miniconda3/envs/eggnog-mapper
+Jan-14 15:32:28.473 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: Prodigal (${prefix}); status: COMPLETED; exit: 0; error: -; workDir: /home/hxl/work_space12/mynextflow/work/ef/82ee3602e8bd0e976485e797220cd5]
+Jan-14 15:32:28.475 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-14 15:32:28.476 [Task submitter] INFO  nextflow.Session - [fd/ad6e97] Submitted process > Emapper0 (${prefix})
+Jan-14 15:33:27.280 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: Abricate (${prefix}); status: COMPLETED; exit: 0; error: -; workDir: /home/hxl/work_space12/mynextflow/work/b5/ab60c5da8d07eee2ead0c89cd39096]
+Jan-14 15:33:27.282 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-14 15:33:27.283 [Task submitter] INFO  nextflow.Session - [ce/366971] Submitted process > Cluster (${prefix})
+Jan-14 15:33:27.490 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 11; name: Cluster (${prefix}); status: COMPLETED; exit: 0; error: -; workDir: /home/hxl/work_space12/mynextflow/work/ce/3669719279fdbaab91d5e9bc791dae]
+Jan-14 15:33:27.495 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-14 15:33:27.496 [Task submitter] INFO  nextflow.Session - [4e/ae83ce] Submitted process > Abricate (${prefix})
+Jan-14 15:33:43.785 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: Abricate (${prefix}); status: COMPLETED; exit: 0; error: -; workDir: /home/hxl/work_space12/mynextflow/work/4e/ae83ce6c10296b532f9c6660e944a8]
+Jan-14 15:33:43.787 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-14 15:33:43.787 [Task submitter] INFO  nextflow.Session - [58/f819ef] Submitted process > Translate (${prefix})
+Jan-14 15:33:43.812 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 12; name: Translate (${prefix}); status: COMPLETED; exit: 0; error: -; workDir: /home/hxl/work_space12/mynextflow/work/58/f819efded395a3bcb263fc9630753f]
+Jan-14 15:33:43.817 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-14 15:33:43.817 [Task submitter] INFO  nextflow.Session - [c2/584ef1] Submitted process > Emapper0 (${prefix})
+Jan-14 15:35:41.976 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: Emapper0 (${prefix}); status: COMPLETED; exit: 0; error: -; workDir: /home/hxl/work_space12/mynextflow/work/fd/ad6e97673b00a4079ac02330b89ab0]
+Jan-14 15:35:41.981 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-14 15:35:41.981 [Task submitter] INFO  nextflow.Session - [a1/e360d8] Submitted process > Emapper1 (${prefix})
+Jan-14 15:35:43.025 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 15; name: Emapper1 (${prefix}); status: COMPLETED; exit: 0; error: -; workDir: /home/hxl/work_space12/mynextflow/work/a1/e360d8760c2007f8f4872cdb6ff896]
+Jan-14 15:37:01.987 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 14; name: Emapper0 (${prefix}); status: COMPLETED; exit: 0; error: -; workDir: /home/hxl/work_space12/mynextflow/work/c2/584ef17bf90a475d1b47919df4589b]
+Jan-14 15:37:01.993 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-14 15:37:01.993 [Task submitter] INFO  nextflow.Session - [ab/009ed5] Submitted process > Emapper1 (${prefix})
+Jan-14 15:37:02.793 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 16; name: Emapper1 (${prefix}); status: COMPLETED; exit: 0; error: -; workDir: /home/hxl/work_space12/mynextflow/work/ab/009ed50c8ced2b5d2806e777f67bd5]
+Jan-14 15:37:02.795 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jan-14 15:37:02.893 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Jan-14 15:37:02.893 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jan-14 15:37:02.895 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Jan-14 15:37:02.898 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=16; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=1h 4m 27s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=16; peakMemory=0; ]
+Jan-14 15:37:03.027 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jan-14 15:37:03.046 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Jan-14 15:37:03.046 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

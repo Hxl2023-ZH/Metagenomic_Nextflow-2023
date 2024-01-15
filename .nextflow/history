@@ -1,0 +1,97 @@
+2024-01-05 10:44:24	-	scruffy_golick	-	a350aa1da492e912d3d0fee59472fe58	4d2a090b-266d-48ac-ac9c-11ba4a16d9d3	nextflow run main.nf
+2024-01-05 10:45:20	-	dreamy_kimura	-	a34249166ea45e5ab2e617a7f2dfed4c	16935297-7a78-4380-b46e-54c116a2d033	nextflow run main.nf
+2024-01-05 10:46:01	-	evil_jennings	-	738e6e7a9812415d48e900f4b6fc198e	c729ce5a-3b69-427d-971f-1315fbf5c586	nextflow run main.nf
+2024-01-05 10:46:36	990ms	furious_meitner	OK	99efe96214b14ab525d610f8e0c62737	dce97db5-e44e-4af5-80ad-05c9513ec026	nextflow run main.nf
+2024-01-05 10:47:13	1.6s	fervent_moriondo	OK	99efe96214b14ab525d610f8e0c62737	6d7abab2-b434-434d-8e67-ab16fcc54e87	nextflow run main.nf help
+2024-01-05 10:48:03	-	magical_bhaskara	-	99efe96214b14ab525d610f8e0c62737	9a1c2073-be18-42ea-a794-110b19acb74e	nextflow run main.nf --help
+2024-01-05 10:49:07	-	distracted_hugle	-	99efe96214b14ab525d610f8e0c62737	65cf726e-ffdc-42a4-8e73-89fb2176dc25	nextflow run main.nf --help
+2024-01-05 14:20:02	857ms	furious_mcnulty	OK	99efe96214b14ab525d610f8e0c62737	cf03bd58-d37b-427f-a054-c516b6c6970a	nextflow run main.nf --read_path ./data/reads/
+2024-01-05 15:45:04	-	curious_montalcini	-	d858a2bb6d9dbe7bf11a98e4bd855d25	76bdc821-d8e2-43a1-80b1-6afc27215e07	nextflow run main.nf
+2024-01-05 15:47:34	-	irreverent_poisson	-	b177bd3637fb01f7df260a3c7a4c4253	c9e40a17-7591-4028-ba38-a7002de0bcaf	nextflow run main.nf
+2024-01-05 15:48:35	-	hungry_yalow	-	b177bd3637fb01f7df260a3c7a4c4253	8f7163e6-ab17-4ec8-8170-b9c98fcbb4c0	nextflow run main.nf
+2024-01-05 15:50:22	-	festering_gates	-	b177bd3637fb01f7df260a3c7a4c4253	61b56873-7254-417d-b25c-17e4397207a5	nextflow run main.nf
+2024-01-05 15:54:27	-	furious_coulomb	-	b177bd3637fb01f7df260a3c7a4c4253	8cafbb1b-42f5-4a2e-a746-03d518f0d9b3	nextflow run main.nf
+2024-01-05 15:57:44	1.9s	romantic_lumiere	ERR	b177bd3637fb01f7df260a3c7a4c4253	f03d29e7-03c6-4139-8dff-7dbee58d2026	nextflow run main.nf --read_path ./data/reads/
+2024-01-05 16:05:17	1.8s	extravagant_northcutt	ERR	b177bd3637fb01f7df260a3c7a4c4253	7cf84275-e8cd-4e54-827b-4a17fea346f1	nextflow run main.nf --read_path ./data/reads/
+2024-01-05 16:07:32	2.2s	hopeful_majorana	ERR	b177bd3637fb01f7df260a3c7a4c4253	d52c30e4-8bc6-4f5e-860c-94216a3402fe	nextflow run main.nf --read_path ./data/reads/
+2024-01-05 16:12:47	2.6s	cranky_banach	ERR	b177bd3637fb01f7df260a3c7a4c4253	119362af-595f-47e6-9ae3-c01a7933136a	nextflow run main.nf --read_path ./data/reads/
+2024-01-05 16:38:48	1.6s	loving_boyd	ERR	b177bd3637fb01f7df260a3c7a4c4253	11675de3-bad8-4475-a1bb-af7d5506c393	nextflow run main.nf --read_path ./data/reads/
+2024-01-05 16:40:21	2.8s	backstabbing_kalman	ERR	b177bd3637fb01f7df260a3c7a4c4253	d783e389-903d-49f7-b1dc-7e8b1b5a569b	nextflow run main.nf --read_path ./data/reads/
+2024-01-05 16:44:39	2s	condescending_moriondo	ERR	b177bd3637fb01f7df260a3c7a4c4253	f6caf64c-91c6-48cf-9e59-d0828e0dd413	nextflow run main.nf --read_path ./data/reads/
+2024-01-05 16:49:02	2.5s	scruffy_hawking	ERR	b177bd3637fb01f7df260a3c7a4c4253	aef1ccec-b410-42dd-b896-d34ad2d28545	nextflow run main.nf --read_path ./data/reads/ --outdir ./pipeline_output/decont_out/
+2024-01-05 19:12:31	2.4s	loving_solvay	ERR	b177bd3637fb01f7df260a3c7a4c4253	02f1a43f-0f12-4112-b4a2-8621ebcdb687	nextflow run main.nf --read_path ./data/reads/
+2024-01-06 09:20:17	2.4s	clever_hypatia	ERR	b177bd3637fb01f7df260a3c7a4c4253	ed3712cf-39a1-49a1-8e89-ae13277f16ed	nextflow run main.nf --read_path ./data/reads/
+2024-01-06 10:18:40	2.3s	boring_boyd	ERR	b177bd3637fb01f7df260a3c7a4c4253	21c8c59e-2fdf-46b4-bec9-8e74351dd738	nextflow run main.nf --read_path ./data/reads/
+2024-01-06 10:20:47	2s	lonely_goldberg	ERR	b177bd3637fb01f7df260a3c7a4c4253	729218b1-6f0c-4175-9316-e1d2bd33fe11	nextflow run main.nf --read_path ./data/reads/
+2024-01-06 10:23:05	2.6s	stupefied_cajal	ERR	b177bd3637fb01f7df260a3c7a4c4253	65dba235-830c-4188-a7ca-28bc8f7b0a51	nextflow run main.nf --read_path ./data/reads/
+2024-01-06 10:24:28	2.2s	extravagant_euler	OK	b177bd3637fb01f7df260a3c7a4c4253	ab5aedc4-ae6e-419a-80bb-72b11df1f593	nextflow run main.nf --read_path ./data/reads/
+2024-01-06 10:27:45	2.1s	trusting_curry	OK	b77aa18e374e3178c25b83c1c65eeca6	af83283f-dacd-46bc-a740-4433cf531743	nextflow run main.nf --read_path ./data/reads/
+2024-01-06 10:39:39	2s	condescending_sax	OK	9e96c1545f29b7c9fe2fabd1ea5c0896	bcdfaaab-cad2-4353-a117-6dbde876e8fe	nextflow run main.nf --read_path ./data/reads/
+2024-01-06 16:02:08	2.4s	gloomy_shirley	ERR	0b0c9f6956e7a995cddcdbe7795836f4	0b246241-6239-4f62-84e8-54f42b49a09c	nextflow run main.nf --read_path ./data/reads/
+2024-01-06 16:05:01	2.2s	grave_gauss	ERR	0b0c9f6956e7a995cddcdbe7795836f4	6d64680e-df5e-4aef-a7de-d93d99866bbd	nextflow run main.nf --read_path ./data/reads/
+2024-01-06 16:50:02	-	loving_plateau	-	0b0c9f6956e7a995cddcdbe7795836f4	7259e0a3-8ff9-4261-acfe-66f888c64aa0	nextflow run main.nf --read_path ./data/reads/
+2024-01-06 16:51:22	-	boring_minsky	-	a8fc854d545e27978fdebc393ef4c715	6da77844-5376-4fe8-9c5c-bccd6a198e70	nextflow run main.nf --read_path ./data/reads/
+2024-01-06 16:57:49	-	mad_kay	-	3bec81cbfcc79dba74a725190dd7591e	9c6e5e9f-7d86-4375-835b-7004564d2a91	nextflow run main.nf --read_path ./data/reads/
+2024-01-06 16:58:55	2s	amazing_albattani	ERR	af99876ec961da8336fc42c6f08ce1b5	95e3bca9-0fc4-48ed-9b33-720e34965f39	nextflow run main.nf --read_path ./data/reads/
+2024-01-06 17:02:46	2.5s	happy_poincare	ERR	af99876ec961da8336fc42c6f08ce1b5	4dd18c93-b760-4853-999e-28c5347722d9	nextflow run main.nf --read_path ./data/reads/
+2024-01-08 17:07:13	-	kickass_carson	-	af99876ec961da8336fc42c6f08ce1b5	a7637600-ae9f-4941-b47b-bc65b79c211b	nextflow run main.nf --read_path ./data/reads/
+2024-01-08 17:08:53	-	fervent_goldberg	-	af99876ec961da8336fc42c6f08ce1b5	61e0d51d-66a5-428c-b9d2-aea5eb450ab6	nextflow run main.nf --read_path ./data/reads/
+2024-01-08 17:10:48	-	amazing_yonath	-	af99876ec961da8336fc42c6f08ce1b5	145782e4-365a-4ec5-b6ca-824e6e3f1680	nextflow run main.nf --read_path ./data/reads/
+2024-01-08 17:12:51	2.6s	pensive_gautier	ERR	af99876ec961da8336fc42c6f08ce1b5	cb2c9750-efae-4a08-b899-0bad7d8fb294	nextflow run main.nf --read_path ./data/reads/
+2024-01-08 17:26:21	2.6s	scruffy_meucci	ERR	3853b90f3f1ef36888560eb2100b8ff9	ee30a3b5-e8f5-44d9-b6dd-3c2626da3fb4	nextflow run main.nf --read_path ./data/reads/
+2024-01-08 17:37:20	2.2s	cheeky_sinoussi	ERR	6d8058b219d34d6a9ace7901b99e028d	c1c4b623-4a84-4992-a72c-d9cfffc48d08	nextflow run main.nf --read_path ./data/reads/
+2024-01-08 17:38:58	2s	trusting_sax	ERR	6d8058b219d34d6a9ace7901b99e028d	17d073a3-4928-4dde-b6d3-693fdf8e6916	nextflow run main.nf --read_path ./data/reads/
+2024-01-08 17:40:18	2.1s	cheesy_faraday	ERR	6d8058b219d34d6a9ace7901b99e028d	3f28e275-00bb-4d1e-8bf0-814f592e8856	nextflow run main.nf --read_path ./data/reads/
+2024-01-08 17:42:46	1.6s	goofy_kay	ERR	6d8058b219d34d6a9ace7901b99e028d	d3af5a48-4200-4992-96a9-a11cdcc1bdf5	nextflow run main.nf --read_path ./data/reads/
+2024-01-08 17:45:28	1.6s	distracted_bernard	ERR	6d8058b219d34d6a9ace7901b99e028d	5f410862-fec8-4b27-af25-e63c1e9dbe81	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-08 17:45:59	2.3s	marvelous_bell	ERR	6d8058b219d34d6a9ace7901b99e028d	34e627c7-5905-4a3f-b413-b4d5f9f464d8	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-08 17:53:38	-	lethal_wing	-	9d663278275c108a2de55896c3813da3	f2509bf3-a2a8-4c5c-b198-b2a5c0af311e	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-08 17:54:32	2.7s	drunk_cray	ERR	920784d904c4c6316574d39bd5141cb5	d0bbd690-6dbd-4097-a46d-bb68398bfd65	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-08 17:55:20	4m 48s	pensive_hodgkin	OK	920784d904c4c6316574d39bd5141cb5	39242326-872c-40c4-9287-8fde2de98e98	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-08 18:12:36	-	confident_leakey	-	920784d904c4c6316574d39bd5141cb5	23cdb80c-5db6-4375-8bf4-fb4367d69a21	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-08 18:13:34	1m 24s	boring_goodall	OK	920784d904c4c6316574d39bd5141cb5	7841eafd-61d6-40b7-ac08-ca4861edf654	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-08 18:49:48	1m 26s	distracted_kalman	OK	920784d904c4c6316574d39bd5141cb5	c44a304f-0b9a-4ebc-837a-cdc6fa4a102a	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-08 18:54:28	1m 26s	special_liskov	OK	920784d904c4c6316574d39bd5141cb5	dc1f1049-89f4-47e7-811f-1196c2da39d4	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-08 19:31:50	2.4s	curious_engelbart	OK	ed36b1104eb2e99bb604f6b3905945c4	c0b3e3e6-383e-4e21-a491-ef1908be90d8	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-08 19:46:25	2.2s	ridiculous_kalman	ERR	3ea253a19dcb30a18c6f44b8b3a8d46d	393c8d33-7f41-4e55-8024-9ef10e3121b0	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-08 19:48:05	2.3s	loving_golick	ERR	3ea253a19dcb30a18c6f44b8b3a8d46d	3580a45e-1b81-47b0-be3b-c5665818d165	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-08 19:51:43	1m 24s	nostalgic_knuth	OK	3ea253a19dcb30a18c6f44b8b3a8d46d	3038bc81-995e-4dd1-a9b2-4b9d40abe69b	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-08 20:58:50	-	backstabbing_carlsson	-	f67db42c4519686949b400e0d7041f67	a40b1457-aff3-4f1e-8232-da4654e8d860	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-08 21:05:59	-	small_einstein	-	b8dae3b715b28156f56ce19d36bb5d9e	f2703114-09c8-436a-9475-2ac341b017aa	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-08 21:06:52	-	zen_morse	-	05868fdf8e4c4e637dde763907ad282d	ecb96e8c-ee87-4a3c-bf2f-c4529acccdf5	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-08 21:07:13	-	small_lagrange	-	8d3b19752058e1703eaa914159cefb3f	463754b8-d65c-4a11-a7e4-867a436fd4ce	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 15:05:07	-	furious_rubens	-	0fece9ea6b208230dc2dc03e8a148282	fb4b9683-66a6-43cf-860d-59707455a350	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 15:05:56	17.9s	gloomy_avogadro	ERR	0053269dbaa84243329db4c4845060d1	c0e06af1-af07-4e7e-9c72-2cfe8b917a7d	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 15:11:14	2.5s	pensive_fourier	ERR	0053269dbaa84243329db4c4845060d1	eeb18f50-1c2a-4dbf-bbd4-b6352541fdb1	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 15:12:00	10.6s	high_varahamihira	ERR	0053269dbaa84243329db4c4845060d1	f2cf0518-4e50-4e43-a29e-538eb6f927dd	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 15:12:43	10.5s	reverent_lagrange	ERR	0053269dbaa84243329db4c4845060d1	eb63b96e-6247-4394-a865-adc4be08fd50	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 15:13:20	2.5s	infallible_wilson	ERR	0053269dbaa84243329db4c4845060d1	90d61bb3-a266-4714-9cc6-63aae905cb66	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 15:16:02	11.5s	festering_celsius	ERR	0053269dbaa84243329db4c4845060d1	6398a789-def8-4c92-863e-fa17beae1d79	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 15:23:21	10.6s	amazing_bassi	ERR	0053269dbaa84243329db4c4845060d1	a1b74191-c83e-45ba-9e9f-a8aaddfbb0fd	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 15:25:07	10.6s	fabulous_mandelbrot	ERR	0053269dbaa84243329db4c4845060d1	af49ae4b-f879-4e86-ad84-cb7ffd049c8c	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 15:26:58	12.2s	pedantic_rosalind	ERR	0053269dbaa84243329db4c4845060d1	924b8149-5056-41a6-8c77-c41dc3e6492d	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 15:32:57	12.3s	sad_hoover	ERR	0053269dbaa84243329db4c4845060d1	ddcff05b-8e14-4ff3-8efc-d57c4d578a24	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 15:41:03	10.2s	voluminous_brahmagupta	ERR	97dd4fe35594fecbe0a197cf8ebecaee	e3d22736-8e11-4747-a08f-c2f9285b5e7c	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 15:45:57	2.5s	prickly_kay	ERR	97dd4fe35594fecbe0a197cf8ebecaee	ac7b8e77-611e-462e-97fc-1902b7cd90a7	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 15:46:44	10.9s	stoic_brazil	ERR	97dd4fe35594fecbe0a197cf8ebecaee	88a5662a-4763-4e36-a6cb-98e61aac6c4f	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 15:51:12	11.7s	agitated_bohr	ERR	97dd4fe35594fecbe0a197cf8ebecaee	4513a41b-51f8-4a95-9bc6-3ac055080fad	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 16:04:34	11.4s	distraught_mayer	ERR	97dd4fe35594fecbe0a197cf8ebecaee	18410add-38dd-48ee-89be-7d102e6a2282	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 16:05:31	11.8s	special_kimura	OK	97dd4fe35594fecbe0a197cf8ebecaee	2b076ebe-8710-42e8-9bbc-8a2c32c24e8c	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 16:45:30	12.2s	happy_elion	OK	94a3314ba76b7472da4b1f855b7c7a2c	d0a884b7-e959-4ee6-93a1-bc1a23104bcf	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 16:47:36	8.9s	intergalactic_nightingale	OK	94a3314ba76b7472da4b1f855b7c7a2c	9356a3d1-554c-481f-9721-3477145004f5	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 17:03:53	8.9s	cranky_swanson	ERR	94a3314ba76b7472da4b1f855b7c7a2c	3aa7cc59-4bfe-456b-a0ea-38f1e35bfbf5	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 17:05:53	8.9s	grave_baekeland	ERR	94a3314ba76b7472da4b1f855b7c7a2c	9246a4b1-80e0-4c0d-aba1-af5ca0a37502	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 17:07:02	2.2s	small_meucci	ERR	94a3314ba76b7472da4b1f855b7c7a2c	727225b0-9d18-4f56-8092-a1dd6470015c	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 17:07:36	2.3s	nauseous_tuckerman	ERR	94a3314ba76b7472da4b1f855b7c7a2c	0e48196f-0458-4e93-a3a8-4594d9834861	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 17:08:13	9.1s	awesome_turing	OK	94a3314ba76b7472da4b1f855b7c7a2c	7fd317b9-57fe-48dd-afe1-838ec46aedc2	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 17:15:23	3s	golden_turing	ERR	94a3314ba76b7472da4b1f855b7c7a2c	6be9cd78-1e21-4013-8c54-b47029381e20	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-12 17:19:09	9s	sleepy_maxwell	OK	94a3314ba76b7472da4b1f855b7c7a2c	3992072b-efd2-4575-8d82-16db353781a9	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-13 14:43:46	9.5s	small_cajal	OK	6e86af041919499c3d23bb2c06f2c71c	46a7463c-428c-4d38-a281-926d6cde2996	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-14 10:29:17	-	awesome_lovelace	-	e176a2afdc9779e803daae003d31ae57	2f87675d-1a78-48f9-9e59-88a5e82aad3f	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-14 10:30:25	9.9s	sad_thompson	OK	a5e1d197dd0b53af56eed4fa5bfed2ff	c7125334-588a-4db6-aa1c-2ccef01f8f62	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-14 13:59:20	-	thirsty_lovelace	-	fb8167586b1067820248a9b080e46f02	127d0d47-6dd4-4e06-b7cf-44b2c9f895e0	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-14 13:59:46	9.5s	small_pasteur	ERR	4ab187e125617a6d98458dbe56f36e1b	f915393c-4df8-4238-ad27-43fe3d808e43	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-14 14:01:56	4m 14s	silly_hopper	OK	4ab187e125617a6d98458dbe56f36e1b	40f54c63-4c57-425c-ad57-549cd90f7fa8	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-14 14:33:02	-	curious_fermi	-	3abedf98c9eb7117db815796d2ca4aed	5fddde08-8eff-4f46-a6d2-e5253a669f7a	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-14 14:33:42	4m 13s	stoic_minsky	OK	3abedf98c9eb7117db815796d2ca4aed	0b1df67a-779e-4a76-af4a-e8f9cc783557	nextflow run main.nf -with-conda --read_path ./data/reads/
+2024-01-14 15:32:19	4m 44s	marvelous_varahamihira	OK	2deb89e8a911b99aa94dba82b0538d20	a7a90921-fddc-4144-9d0b-58fd5465614a	nextflow run main.nf -with-conda --read_path ./data/reads/
